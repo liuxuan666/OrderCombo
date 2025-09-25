@@ -1,0 +1,758 @@
+cell line,COSMIC_ID,tissue,cancer_type
+DiFi,1789883,Large Intestine,Colorectal Carcinoma
+PL18,1240208,Pancreas,Pancreatic Carcinoma
+K5,924238,Thyroid,Thyroid Gland Carcinoma
+HLE,907057,Liver,Hepatocellular Carcinoma
+BICR10,1290724,Head and Neck,Oral Cavity Carcinoma
+SF539,905984,Central Nervous System,Glioblastoma
+SF268,905986,Central Nervous System,Glioma
+RPMI-8226,905964,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+PC-3,905934,Prostate,Prostate Carcinoma
+OVCAR-8,905991,Ovary,Ovarian Carcinoma
+OVCAR-5,905969,Ovary,Ovarian Carcinoma
+OVCAR-4,905990,Ovary,Ovarian Carcinoma
+SN12C,905979,Kidney,Kidney Carcinoma
+SR,905965,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+T47D,905945,Breast,Breast Carcinoma
+NCI-H2731,1240134,Lung,Mesothelioma
+NCI-H2722,1290812,Lung,Mesothelioma
+NCI-H2595,1240132,Lung,Mesothelioma
+NCI-H2591,1240131,Lung,Mesothelioma
+NCI-H2461,1290810,Lung,Mesothelioma
+NCI-H2373,1290809,Lung,Mesothelioma
+NCI-H2369,1290808,Lung,Mesothelioma
+OVCAR-3,905933,Ovary,Ovarian Carcinoma
+UACC-62,905976,Skin,Melanoma
+UACC-257,905977,Skin,Melanoma
+U251,905983,Central Nervous System,Glioma
+TK10,905980,Kidney,Kidney Carcinoma
+NCI-H513,1240141,Lung,Non-Small Cell Lung Carcinoma
+NCI-H522,905944,Lung,Non-Small Cell Lung Carcinoma
+NCI-H322M,905967,Lung,Non-Small Cell Lung Carcinoma
+HCC2998,905971,Large Intestine,Colorectal Carcinoma
+BT-549,905951,Breast,Breast Carcinoma
+ACHN,905950,Kidney,Kidney Carcinoma
+A498,905948,Kidney,Kidney Carcinoma
+786-0,905947,Kidney,Kidney Carcinoma
+JHU-022,1240162,Head and Neck,Oral Cavity Carcinoma
+CFPAC-1,906821,Pancreas,Pancreatic Carcinoma
+BxPC-3,906693,Pancreas,Pancreatic Carcinoma
+HOP-62,905972,Lung,Non-Small Cell Lung Carcinoma
+HOP-92,905973,Lung,Non-Small Cell Lung Carcinoma
+Hs-578-T,905957,Breast,Breast Carcinoma
+HT-29,905939,Large Intestine,Colorectal Carcinoma
+NCI-H3122,1240190,Lung,Non-Small Cell Lung Carcinoma
+NCI-H23,905942,Lung,Non-Small Cell Lung Carcinoma
+NCI-H226,905941,Lung,Mesothelioma
+COLO-792,906814,Skin,Melanoma
+COLO-668,910692,Lung,Small Cell Lung Carcinoma
+MDA-MB-231,905960,Breast,Breast Carcinoma
+MCF7,905946,Breast,Breast Carcinoma
+LOXIMVI,905974,Skin,Melanoma
+NCI-H2795,1290813,Lung,Mesothelioma
+NB7,949174,Peripheral Nervous System,Neuroblastoma
+BB49-HNC,753532,Head and Neck,Head and Neck Carcinoma
+CHSA8926,1303912,Bone,Chondrosarcoma
+LB996-RCC,753585,Kidney,Kidney Carcinoma
+LB831-BLC,753584,Bladder,Bladder Carcinoma
+LB771-HNC,753583,Head and Neck,Head and Neck Carcinoma
+SNU-61,1660035,Large Intestine,Colorectal Carcinoma
+EW-24,949168,Bone,Ewing's Sarcoma
+EW-22,949167,Bone,Ewing's Sarcoma
+EW-18,949164,Bone,Ewing's Sarcoma
+EW-16,949165,Bone,Ewing's Sarcoma
+CS1,1290795,Bone,Chondrosarcoma
+EW-7,949160,Bone,Ewing's Sarcoma
+EW-3,949161,Bone,Ewing's Sarcoma
+EW-11,684062,Bone,Ewing's Sarcoma
+EW-1,949163,Bone,Ewing's Sarcoma
+ALL-PO,910944,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+CAS-1,910943,Central Nervous System,Glioblastoma
+FTC-133,906864,Thyroid,Thyroid Gland Carcinoma
+RO82-W-1,930083,Thyroid,Thyroid Gland Carcinoma
+MPP-89,908150,Lung,Mesothelioma
+IST-MES1,907173,Lung,Mesothelioma
+IST-MEL1,907172,Skin,Melanoma
+GI-ME-N,906872,Peripheral Nervous System,Neuroblastoma
+IST-SL2,753565,Lung,Small Cell Lung Carcinoma
+ATN-1,910687,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+TC-YIK,946357,Cervix,Other Solid Cancers
+RCC10RGB,909974,Kidney,Kidney Carcinoma
+PC-14,753608,Lung,Non-Small Cell Lung Carcinoma
+OS-RC-2,909250,Kidney,Kidney Carcinoma
+NOS-1,925345,Bone,Osteosarcoma
+NEC8,910942,Testis,Other Solid Cancers
+NB69,908440,Peripheral Nervous System,Neuroblastoma
+MS-1,753594,Lung,Small Cell Lung Carcinoma
+MKN45,925340,Stomach,Gastric Carcinoma
+TE-15,753614,Esophagus,Esophageal Squamous Cell Carcinoma
+TE-4,1503371,Esophagus,Esophageal Squamous Cell Carcinoma
+TGBC1TKB,909769,Biliary Tract,Biliary Tract Carcinoma
+NB14,949178,Peripheral Nervous System,Neuroblastoma
+NB13,949177,Peripheral Nervous System,Neuroblastoma
+NB12,949172,Peripheral Nervous System,Neuroblastoma
+NB10,949171,Peripheral Nervous System,Neuroblastoma
+MKN28,908139,Stomach,Gastric Carcinoma
+ES8,949155,Bone,Ewing's Sarcoma
+ES6,949157,Bone,Ewing's Sarcoma
+ES4,949156,Bone,Ewing's Sarcoma
+ES1,949158,Bone,Ewing's Sarcoma
+TGBC24TKB,910695,Biliary Tract,Biliary Tract Carcinoma
+ES7,684059,Bone,Ewing's Sarcoma
+MKN1,908138,Stomach,Gastric Carcinoma
+MDA-MB-453,908122,Breast,Breast Carcinoma
+GI-1,906871,Central Nervous System,Glioblastoma
+GCIY,906869,Stomach,Gastric Carcinoma
+ETK-1,906861,Biliary Tract,Biliary Tract Carcinoma
+EoL-1-cell,906856,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+EC-GI-10,753555,Esophagus,Esophageal Squamous Cell Carcinoma
+ECC10,906848,Stomach,Gastric Carcinoma
+COLO-679,906818,Skin,Melanoma
+CHP-134,910941,Peripheral Nervous System,Neuroblastoma
+BALL-1,910705,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+HAL-01,949153,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+HGC-27,907055,Stomach,Gastric Carcinoma
+HMV-II,907058,Skin,Melanoma
+LU-165,753589,Lung,Small Cell Lung Carcinoma
+LU-139,713878,Lung,Small Cell Lung Carcinoma
+LU-135,713899,Lung,Small Cell Lung Carcinoma
+MFH-ino,925343,Soft Tissue,Other Sarcomas
+LC-1-sq,1298223,Lung,Squamous Cell Lung Carcinoma
+KP-4,753572,Pancreas,Pancreatic Carcinoma
+KGN,924186,Ovary,Other Solid Cancers
+IA-LM,910779,Lung,Non-Small Cell Lung Carcinoma
+KU812,907311,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+L-363,924239,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+L-1236,1330935,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+YH-13,909905,Central Nervous System,Glioblastoma
+VMRC-RCZ,909781,Kidney,Kidney Carcinoma
+TYK-nu,909774,Ovary,Ovarian Carcinoma
+T-T,1299064,Esophagus,Esophageal Squamous Cell Carcinoma
+TK,1331045,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+TGW,910780,Peripheral Nervous System,Neuroblastoma
+TE-9,946353,Esophagus,Esophageal Squamous Cell Carcinoma
+TE-8,753623,Esophagus,Esophageal Squamous Cell Carcinoma
+TE-6,946355,Esophagus,Esophageal Squamous Cell Carcinoma
+L-540,907323,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+MHH-CALL-2,908132,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+MFM-223,910948,Breast,Breast Carcinoma
+MFE-280,908129,Endometrium,Endometrial Carcinoma
+MEL-JUSO,908125,Skin,Melanoma
+ME-1,1330942,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+LXF-289,753592,Lung,Non-Small Cell Lung Carcinoma
+LOU-NH91,1298226,Lung,Squamous Cell Lung Carcinoma
+LOUCY,907789,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+LN-405,910694,Central Nervous System,Glioblastoma
+LCLC-97TM1,946361,Lung,Non-Small Cell Lung Carcinoma
+LCLC-103H,753586,Lung,Non-Small Cell Lung Carcinoma
+LAMA-84,907783,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+TE-5,735784,Esophagus,Esophageal Squamous Cell Carcinoma
+SAT,1299050,Head and Neck,Head and Neck Carcinoma
+SAS,909708,Head and Neck,Oral Cavity Carcinoma
+RMG-I,909699,Ovary,Ovarian Carcinoma
+RKN,1298539,Soft Tissue,Other Sarcomas
+RERF-LC-Sq1,1298538,Lung,Squamous Cell Lung Carcinoma
+RERF-LC-KJ,1298537,Lung,Non-Small Cell Lung Carcinoma
+RERF-GC-1B,1240209,Stomach,Gastric Carcinoma
+RCM-1,909263,Large Intestine,Colorectal Carcinoma
+P32-ISH,1330987,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+SBC-5,713880,Lung,Small Cell Lung Carcinoma
+TE-1,753621,Esophagus,Esophageal Squamous Cell Carcinoma
+SUIT-2,1240219,Pancreas,Pancreatic Carcinoma
+SLVL,1331032,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+SKN-3,1299059,Head and Neck,Head and Neck Carcinoma
+SKN,1240215,Uterus,Other Sarcomas
+SK-MG-1,909729,Central Nervous System,Glioma
+SKG-IIIa,930298,Cervix,Cervical Carcinoma
+SCC-3,910930,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+MHH-ES-1,908134,Bone,Ewing's Sarcoma
+SU-DHL-10,1331033,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+SK-MM-2,753612,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+SK-GT-2,1503364,Stomach,Gastric Carcinoma
+SISO,1240212,Cervix,Cervical Carcinoma
+SIMA,753620,Peripheral Nervous System,Neuroblastoma
+RT-112,909704,Bladder,Bladder Carcinoma
+RPMI-8402,909702,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+SU-DHL-5,1331036,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+SU-DHL-6,1331037,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+YT,946358,Haematopoietic and Lymphoid,Other Blood Cancers
+YAPC,909904,Pancreas,Pancreatic Carcinoma
+WSU-DLCL2,1331050,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+VM-CUB-1,909780,Bladder,Bladder Carcinoma
+VAL,1331048,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+U-266,753615,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+TT2609-C02,1240223,Thyroid,Thyroid Gland Carcinoma
+TC-71,1240221,Bone,Ewing's Sarcoma
+SW1710,909749,Bladder,Bladder Carcinoma
+SUP-M2,1331040,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+SU-DHL-8,1331038,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+U-698-M,909777,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+RH-1,971773,Bone,Ewing's Sarcoma
+MOLP-8,1330950,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+MOLM-13,1330947,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+ML-2,908141,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+OACM5-1,1503363,Esophagus,Esophageal Carcinoma
+OACp4C,1503362,Esophagus,Esophageal Carcinoma
+OCI-AML2,910947,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+RC-K8,1330995,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+PF-382,909260,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+PA-TU-8988T,1240201,Pancreas,Pancreatic Carcinoma
+PA-TU-8902,1298526,Pancreas,Pancreatic Carcinoma
+OPM-2,909249,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+OCI-M1,1330985,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+OCI-AML5,1330983,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+OCI-AML3,1290455,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+P12-ICHIKAWA,909251,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+OVMIU,1240200,Ovary,Ovarian Carcinoma
+PSN1,910546,Pancreas,Pancreatic Carcinoma
+PEO1,1480372,Ovary,Ovarian Carcinoma
+OV-56,1480362,Ovary,Ovarian Carcinoma
+OE33,910549,Esophagus,Esophageal Carcinoma
+OE21,1298359,Esophagus,Esophageal Squamous Cell Carcinoma
+OE19,910079,Esophagus,Esophageal Carcinoma
+OVTOKO,1298365,Ovary,Ovarian Carcinoma
+OVKATE,1240199,Ovary,Ovarian Carcinoma
+OAW-42,910548,Ovary,Ovarian Carcinoma
+OAW-28,946360,Ovary,Ovarian Carcinoma
+RPMI-8866,910544,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+SK-GT-4,1503365,Esophagus,Esophageal Carcinoma
+TT,930299,Thyroid,Thyroid Gland Carcinoma
+BICR22,1240121,Head and Neck,Oral Cavity Carcinoma
+EBC-1,753554,Lung,Squamous Cell Lung Carcinoma
+CaR-1,924108,Large Intestine,Colorectal Carcinoma
+Ca9-22,753538,Head and Neck,Head and Neck Carcinoma
+Becker,906746,Central Nervous System,Glioma
+ASH-3,1290722,Thyroid,Thyroid Gland Carcinoma
+AM-38,910933,Central Nervous System,Glioblastoma
+A3-KAW,910935,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+HTC-C3,924151,Thyroid,Thyroid Gland Carcinoma
+BICR78,1240122,Head and Neck,Oral Cavity Carcinoma
+A4-Fuk,910934,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+FU97,1290806,Stomach,Gastric Carcinoma
+MOG-G-UVW,908145,Central Nervous System,Glioma
+MIA-PaCa-2,724870,Pancreas,Pancreatic Carcinoma
+COR-L88,906808,Lung,Small Cell Lung Carcinoma
+COR-L32,1322212,Lung,Squamous Cell Lung Carcinoma
+COR-L311,687980,Lung,Small Cell Lung Carcinoma
+COR-L279,910937,Lung,Small Cell Lung Carcinoma
+COR-L23,687780,Lung,Non-Small Cell Lung Carcinoma
+COR-L105,906805,Lung,Non-Small Cell Lung Carcinoma
+NCI-H3118,1240140,Head and Neck,Head and Neck Carcinoma
+NCI-H2818,1290814,Lung,Mesothelioma
+COR-L95,1297439,Lung,Small Cell Lung Carcinoma
+DMS-273,687985,Lung,Small Cell Lung Carcinoma
+DMS-53,907295,Lung,Small Cell Lung Carcinoma
+MG-63,908131,Bone,Osteosarcoma
+MEG-01,908126,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+MDST8,1240173,Large Intestine,Colorectal Carcinoma
+MDA-MB-361,908121,Breast,Breast Carcinoma
+MDA-MB-157,925338,Breast,Breast Carcinoma
+KYAE-1,1503368,Esophagus,Esophageal Carcinoma
+HuP-T4,907286,Pancreas,Pancreatic Carcinoma
+MOG-G-CCM,908144,Central Nervous System,Glioma
+HuP-T3,907285,Pancreas,Pancreatic Carcinoma
+H-EMC-SS,907290,Bone,Chondrosarcoma
+ESO51,1503367,Esophagus,Esophageal Carcinoma
+DOK,910936,Head and Neck,Oral Cavity Carcinoma
+HT55,907287,Large Intestine,Colorectal Carcinoma
+D-392MG,946370,Central Nervous System,Glioblastoma
+GAK,910932,Skin,Melanoma
+GOTO,906875,Peripheral Nervous System,Neuroblastoma
+Mewo,908128,Skin,Melanoma
+LU-65,724863,Lung,Non-Small Cell Lung Carcinoma
+LK-2,687787,Lung,Squamous Cell Lung Carcinoma
+LC4-1,907787,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+KYSE-50,1298222,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-220,1240167,Esophagus,Esophageal Squamous Cell Carcinoma
+KYM-1,1240166,Soft Tissue,Rhabdomyosarcoma
+KY821,907300,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+KURAMOCHI,909975,Ovary,Ovarian Carcinoma
+KS-1,907313,Central Nervous System,Glioblastoma
+KP-N-YN,907314,Peripheral Nervous System,Neuroblastoma
+MLMA,908142,Haematopoietic and Lymphoid,Other Blood Cancers
+MRK-nu-1,908151,Breast,Breast Carcinoma
+OSC-20,1240196,Head and Neck,Oral Cavity Carcinoma
+ONS-76,909248,Central Nervous System,Other Solid Cancers
+NY,910849,Bone,Osteosarcoma
+KP-3,1298219,Pancreas,Pancreatic Carcinoma
+NKM-1,908448,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+NH-12,908447,Peripheral Nervous System,Neuroblastoma
+NB1,949179,Peripheral Nervous System,Neuroblastoma
+NB(TU)1-10,1240181,Peripheral Nervous System,Neuroblastoma
+NOMO-1,908451,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+GB-1,687568,Central Nervous System,Glioblastoma
+KP-1N,1298216,Pancreas,Pancreatic Carcinoma
+HuO-3N1,909977,Bone,Osteosarcoma
+HuH-7,907071,Liver,Hepatocellular Carcinoma
+huH-1,1298146,Liver,Hepatocellular Carcinoma
+HuCCT1,907069,Biliary Tract,Biliary Tract Carcinoma
+HSC-4,907062,Head and Neck,Oral Cavity Carcinoma
+HSC-3,907061,Head and Neck,Oral Cavity Carcinoma
+HSC-2,753562,Head and Neck,Oral Cavity Carcinoma
+HO-1-u-1,753561,Head and Neck,Oral Cavity Carcinoma
+HO-1-N-1,924111,Head and Neck,Oral Cavity Carcinoma
+HARA,1240142,Lung,Squamous Cell Lung Carcinoma
+HuO9,907072,Bone,Osteosarcoma
+IHH-4,1240154,Thyroid,Thyroid Gland Carcinoma
+KNS-62,753569,Lung,Squamous Cell Lung Carcinoma
+NUGC-4,1298357,Stomach,Gastric Carcinoma
+OVISE,1240198,Ovary,Ovarian Carcinoma
+KMRC-20,1298169,Kidney,Kidney Carcinoma
+KMRC-1,1298168,Kidney,Kidney Carcinoma
+KINGS-1,907279,Central Nervous System,Glioma
+KALS-1,907271,Central Nervous System,Glioblastoma
+JHH-7,1240160,Liver,Hepatocellular Carcinoma
+JHH-6,1240159,Liver,Hepatocellular Carcinoma
+JHH-4,1240158,Liver,Hepatocellular Carcinoma
+JHH-2,1240157,Liver,Hepatocellular Carcinoma
+JHH-1,1298151,Liver,Hepatocellular Carcinoma
+EW-13,949166,Bone,Ewing's Sarcoma
+Mo-T,908149,Haematopoietic and Lymphoid,Other Blood Cancers
+MES-SA,908127,Uterus,Other Sarcomas
+ME-180,687514,Cervix,Cervical Carcinoma
+MDA-MB-468,908123,Breast,Breast Carcinoma
+MDA-MB-415,924240,Breast,Breast Carcinoma
+MDA-MB-175-VII,908120,Breast,Breast Carcinoma
+MS751,1240179,Cervix,Cervical Carcinoma
+MSTO-211H,908152,Lung,Mesothelioma
+NCI-H1417,688001,Lung,Small Cell Lung Carcinoma
+NCI-H1355,724866,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1341,1330964,Lung,Small Cell Lung Carcinoma
+NCI-H1299,724831,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1155,908467,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1092,687997,Lung,Small Cell Lung Carcinoma
+MV-4-11,908156,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+NCI-H1435,1298347,Lung,Non-Small Cell Lung Carcinoma
+M059J,949094,Central Nervous System,Glioblastoma
+Hs-766T,1298141,Pancreas,Pancreatic Carcinoma
+Hs-746T,1240151,Stomach,Gastric Carcinoma
+HCC1428,1290905,Breast,Breast Carcinoma
+Hs-633T,1240149,Soft Tissue,Other Sarcomas
+Hs-445,1322218,Haematopoietic and Lymphoid,Non-Cancerous
+HPAF-II,724869,Pancreas,Pancreatic Carcinoma
+HPAC,1298136,Pancreas,Pancreatic Carcinoma
+HH,907056,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+HCC70,907048,Breast,Breast Carcinoma
+HCC38,749717,Breast,Breast Carcinoma
+HT-1197,907065,Bladder,Bladder Carcinoma
+LS-513,907795,Large Intestine,Colorectal Carcinoma
+HT-1376,907066,Bladder,Bladder Carcinoma
+HT-3,907068,Cervix,Cervical Carcinoma
+LN-229,1240169,Central Nervous System,Glioblastoma
+LN-18,1240168,Central Nervous System,Glioblastoma
+KLE,924187,Endometrium,Endometrial Carcinoma
+KATOIII,907276,Stomach,Gastric Carcinoma
+JSC-1,1327769,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+J82,753566,Bladder,Bladder Carcinoma
+HT-144,907067,Skin,Melanoma
+NCI-H2141,688014,Lung,Small Cell Lung Carcinoma
+NCI-H2122,722046,Lung,Non-Small Cell Lung Carcinoma
+NCI-H211,1240189,Lung,Small Cell Lung Carcinoma
+NCI-H209,688013,Lung,Small Cell Lung Carcinoma
+NCI-H2087,724834,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2085,687812,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2066,1330973,Lung,Squamous Cell Lung Carcinoma
+NCI-H2052,688058,Lung,Mesothelioma
+NCI-H2170,687815,Lung,Squamous Cell Lung Carcinoma
+NCI-H358,908465,Lung,Non-Small Cell Lung Carcinoma
+NCI-H345,688021,Lung,Small Cell Lung Carcinoma
+NCI-H2452,908462,Lung,Mesothelioma
+NCI-H2405,687821,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2347,687820,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2342,687819,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2228,687816,Lung,Non-Small Cell Lung Carcinoma
+D-263MG,946368,Central Nervous System,Glioblastoma
+HCC1419,907045,Breast,Breast Carcinoma
+NCI-H2029,688011,Lung,Small Cell Lung Carcinoma
+NCI-H1755,908475,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1703,908474,Lung,Squamous Cell Lung Carcinoma
+NCI-H1694,688006,Lung,Small Cell Lung Carcinoma
+NCI-H1693,687802,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1666,908473,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1651,910900,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1650,687800,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1648,687799,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1623,687798,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1581,908471,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1573,908472,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1568,1298348,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1563,753600,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2023,1240187,Lung,Squamous Cell Lung Carcinoma
+NCI-H1793,908463,Lung,Non-Small Cell Lung Carcinoma
+NCI-H2009,724873,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1993,908476,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1975,924244,Lung,Non-Small Cell Lung Carcinoma
+NCI-H196,1240186,Lung,Small Cell Lung Carcinoma
+NCI-H1944,1240185,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1915,1240184,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1876,1330972,Lung,Small Cell Lung Carcinoma
+NCI-H1869,1240183,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1838,687807,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1792,724868,Lung,Non-Small Cell Lung Carcinoma
+HCC2157,749715,Breast,Breast Carcinoma
+LS-123,907792,Large Intestine,Colorectal Carcinoma
+NCI-H716,908458,Large Intestine,Colorectal Carcinoma
+T84,909761,Large Intestine,Colorectal Carcinoma
+KG-1,907278,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+K-562,905940,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+NCI-H1688,1298349,Lung,Small Cell Lung Carcinoma
+EB-3,906847,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+A375,906793,Skin,Melanoma
+A253,906794,Head and Neck,Head and Neck Carcinoma
+A2058,906792,Skin,Melanoma
+A204,910784,Soft Tissue,Rhabdomyosarcoma
+A172,687563,Central Nervous System,Glioblastoma
+A101D,910921,Skin,Melanoma
+HOS,907060,Bone,Osteosarcoma
+5637,687452,Bladder,Bladder Carcinoma
+SW1417,909747,Large Intestine,Colorectal Carcinoma
+SW13,909744,Adrenal Gland,Other Solid Cancers
+COLO-205,905961,Large Intestine,Colorectal Carcinoma
+HT-1080,907064,Soft Tissue,Other Sarcomas
+HL-60,905938,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+Detroit562,906837,Head and Neck,Head and Neck Carcinoma
+SW948,909757,Large Intestine,Colorectal Carcinoma
+SW837,909755,Large Intestine,Colorectal Carcinoma
+SW1463,909748,Large Intestine,Colorectal Carcinoma
+SW1116,909746,Large Intestine,Colorectal Carcinoma
+SW620,905962,Large Intestine,Colorectal Carcinoma
+COLO-320-HSR,910569,Large Intestine,Colorectal Carcinoma
+Raji,909262,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+HeLa,1298134,Cervix,Cervical Carcinoma
+RD,909264,Soft Tissue,Rhabdomyosarcoma
+A673,684052,Bone,Ewing's Sarcoma
+AGS,906790,Stomach,Gastric Carcinoma
+H4,907042,Central Nervous System,Glioma
+GCT,906999,Soft Tissue,Other Sarcomas
+GA-10,1303896,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+G-402,907298,Soft Tissue,Other Sarcomas
+G-401,907299,Kidney,Other Solid Cancers
+G-361,906865,Skin,Melanoma
+G-292-Clone-A141B1,1290807,Bone,Osteosarcoma
+FADU,906863,Head and Neck,Head and Neck Carcinoma
+ES-2,1240128,Ovary,Ovarian Carcinoma
+DoTc2-4510,906843,Cervix,Cervical Carcinoma
+DMS-114,687983,Lung,Small Cell Lung Carcinoma
+HCC1143,749710,Breast,Breast Carcinoma
+RCC-JW,1524416,Kidney,Kidney Carcinoma
+DBTRG-05MG,906835,Central Nervous System,Glioblastoma
+HCC1954,749709,Breast,Breast Carcinoma
+HCC1937,749714,Breast,Breast Carcinoma
+HCC1806,907047,Breast,Breast Carcinoma
+HCC1599,749713,Breast,Breast Carcinoma
+HCC1395,749712,Breast,Breast Carcinoma
+HCC1187,749711,Breast,Breast Carcinoma
+DB,906832,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+Daoy,906833,Central Nervous System,Other Solid Cancers
+D-283MED,906834,Central Nervous System,Other Solid Cancers
+C32,906830,Skin,Melanoma
+BT-483,949093,Breast,Breast Carcinoma
+BT-20,906801,Breast,Breast Carcinoma
+BC-1,910919,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+AU565,910704,Breast,Breast Carcinoma
+AsPC-1,910702,Pancreas,Pancreatic Carcinoma
+A549,905949,Lung,Non-Small Cell Lung Carcinoma
+C-4-I,687506,Cervix,Cervical Carcinoma
+CA46,910703,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+COLO-829,687448,Skin,Melanoma
+CHP-212,906820,Peripheral Nervous System,Neuroblastoma
+CESS,910688,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+Caov-4,949090,Ovary,Ovarian Carcinoma
+CAMA-1,946382,Breast,Breast Carcinoma
+Calu-6,724859,Lung,Non-Small Cell Lung Carcinoma
+Calu-3,687777,Lung,Non-Small Cell Lung Carcinoma
+Ca-Ski,906824,Cervix,Cervical Carcinoma
+NCI-H441,908460,Lung,Non-Small Cell Lung Carcinoma
+CAL-85-1,910852,Breast,Breast Carcinoma
+CAL-78,1290765,Bone,Chondrosarcoma
+CAL-62,906828,Thyroid,Thyroid Gland Carcinoma
+CAL-54,910952,Kidney,Kidney Carcinoma
+CAPAN-1,753624,Pancreas,Pancreatic Carcinoma
+CAL-39,924107,Vulva,Other Solid Cancers
+CAL-29,1290730,Bladder,Bladder Carcinoma
+CAL-27,910916,Head and Neck,Oral Cavity Carcinoma
+CAL-148,924106,Breast,Breast Carcinoma
+CAL-120,906826,Breast,Breast Carcinoma
+CAL-33,753541,Head and Neck,Oral Cavity Carcinoma
+CAPAN-2,910915,Pancreas,Pancreatic Carcinoma
+CL-11,1290769,Large Intestine,Colorectal Carcinoma
+DEL,906836,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+DAN-G,1290797,Pancreas,Pancreatic Carcinoma
+CPC-N,753547,Lung,Small Cell Lung Carcinoma
+COLO-824,906812,Breast,Breast Carcinoma
+COLO-680N,906817,Esophagus,Esophageal Squamous Cell Carcinoma
+COLO-678,910689,Large Intestine,Colorectal Carcinoma
+CL-40,1240124,Large Intestine,Colorectal Carcinoma
+CADO-ES1,753539,Bone,Ewing's Sarcoma
+BV-173,910710,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+BT-474,946359,Breast,Breast Carcinoma
+BPH-1,924105,Prostate,Non-Cancerous
+NCI-H446,688023,Lung,Small Cell Lung Carcinoma
+OVCA420,1480364,Ovary,Ovarian Carcinoma
+Hey,1479988,Ovary,Ovarian Carcinoma
+DOV13,1479987,Ovary,Ovarian Carcinoma
+DSH1,753552,Bladder,Bladder Carcinoma
+WM793B,1299081,Skin,Melanoma
+WM35,1299080,Skin,Melanoma
+WM278,1240226,Skin,Melanoma
+WM1552C,1299078,Skin,Melanoma
+42-MG-BA,687561,Central Nervous System,Glioblastoma
+647-V,906797,Bladder,Bladder Carcinoma
+BL-41,910706,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+BHT-101,906696,Thyroid,Thyroid Gland Carcinoma
+BFTC-909,910698,Kidney,Kidney Carcinoma
+BFTC-905,910926,Bladder,Bladder Carcinoma
+B-CPAP,924104,Thyroid,Thyroid Gland Carcinoma
+AMO-1,1295741,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+ALL-SIL,1295740,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+8505C,924102,Thyroid,Thyroid Gland Carcinoma
+8305C,906795,Thyroid,Thyroid Gland Carcinoma
+8-MG-BA,687562,Central Nervous System,Glioblastoma
+639-V,906798,Bladder,Bladder Carcinoma
+WM-115,909784,Skin,Melanoma
+DU-4475,906844,Breast,Breast Carcinoma
+EFM-192A,1290798,Breast,Breast Carcinoma
+KE-37,907277,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+KARPAS-620,1327775,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+KARPAS-45,907272,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+KARPAS-422,907274,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+KELLY,753618,Peripheral Nervous System,Neuroblastoma
+KARPAS-299,907273,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+KARPAS-1106P,1327773,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+JVM-3,907270,Haematopoietic and Lymphoid,Other Blood Cancers
+JVM-2,907269,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+JURL-MK1,1327771,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+KARPAS-231,1327774,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+KM-H2,909976,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+KMOE-2,907280,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+KMS-12-BM,907281,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+MONO-MAC-6,908148,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+KYSE-70,753576,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-520,753575,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-450,907320,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-410,753574,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-270,907319,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-180,907318,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-150,907317,Esophagus,Esophageal Squamous Cell Carcinoma
+KYSE-140,753573,Esophagus,Esophageal Squamous Cell Carcinoma
+KU-19-19,907312,Bladder,Bladder Carcinoma
+KOPN-8,1330933,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+JJN-3,1327766,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+FU-OV-1,1240129,Ovary,Ovarian Carcinoma
+FLO-1,1503361,Esophagus,Esophageal Carcinoma
+EVSA-T,906862,Breast,Breast Carcinoma
+ESS-1,907000,Endometrium,Other Sarcomas
+EPLC-272H,753556,Lung,Other Solid Cancers
+EM-2,906855,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+EJM,1297447,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+EGI-1,906853,Biliary Tract,Biliary Tract Carcinoma
+EFO-21,911905,Ovary,Ovarian Carcinoma
+GAMG,906868,Central Nervous System,Glioblastoma
+EFM-19,906851,Breast,Breast Carcinoma
+GDM-1,906870,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+GRANTA-519,1303897,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+IGR-1,907169,Skin,Melanoma
+HDQ-P1,1290922,Breast,Breast Carcinoma
+HD-MY-Z,907050,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+HDLM-2,924110,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+IGR-37,1240153,Skin,Melanoma
+HCC-827,1240146,Lung,Non-Small Cell Lung Carcinoma
+HCC-78,1290908,Lung,Non-Small Cell Lung Carcinoma
+HCC-44,1240145,Lung,Non-Small Cell Lung Carcinoma
+HC-1,907044,Haematopoietic and Lymphoid,Other Blood Cancers
+697,906800,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+VCaP,1299075,Prostate,Prostate Carcinoma
+SHP-77,724872,Lung,Small Cell Lung Carcinoma
+SH-4,909713,Skin,Melanoma
+SCC-9,909709,Head and Neck,Oral Cavity Carcinoma
+SCC-4,910904,Head and Neck,Oral Cavity Carcinoma
+SCC-15,910911,Head and Neck,Oral Cavity Carcinoma
+Saos-2,909707,Bone,Osteosarcoma
+RT4,687455,Bladder,Bladder Carcinoma
+RPMI-7951,910903,Skin,Melanoma
+RF-48,909697,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+SiHa,930297,Cervix,Cervical Carcinoma
+SK-CO-1,909718,Large Intestine,Colorectal Carcinoma
+SK-PN-DW,909731,Central Nervous System,Other Solid Cancers
+SK-N-SH,717431,Peripheral Nervous System,Neuroblastoma
+SK-N-FI,688087,Peripheral Nervous System,Neuroblastoma
+SK-N-DZ,688086,Peripheral Nervous System,Neuroblastoma
+SK-N-AS,724828,Peripheral Nervous System,Neuroblastoma
+WIL2-NS,1331049,Haematopoietic and Lymphoid,Non-Cancerous
+SK-MES-1,909728,Lung,Squamous Cell Lung Carcinoma
+SK-MEL-24,909725,Skin,Melanoma
+SK-MEL-1,909723,Skin,Melanoma
+SK-LU-1,909721,Lung,Non-Small Cell Lung Carcinoma
+SK-LMS-1,909720,Soft Tissue,Other Sarcomas
+SK-HEP-1,909719,Liver,Hepatocellular Carcinoma
+SK-ES-1,684072,Bone,Ewing's Sarcoma
+PWR-1E,1330993,Prostate,Non-Cancerous
+NCI-H810,925341,Lung,Non-Small Cell Lung Carcinoma
+NCI-H727,724855,Lung,Other Solid Cancers
+NCI-H720,687600,Lung,Other Solid Cancers
+NCI-H69,688027,Lung,Small Cell Lung Carcinoma
+NCI-H661,687829,Lung,Non-Small Cell Lung Carcinoma
+NCI-H650,722066,Lung,Non-Small Cell Lung Carcinoma
+NCI-H64,688026,Lung,Small Cell Lung Carcinoma
+NCI-H596,908459,Lung,Non-Small Cell Lung Carcinoma
+NCI-H520,908443,Lung,Squamous Cell Lung Carcinoma
+NCI-H82,688031,Lung,Small Cell Lung Carcinoma
+PFSK-1,683667,Central Nervous System,Other Solid Cancers
+NCI-H835,753607,Lung,Other Solid Cancers
+NCI-H841,1240192,Lung,Small Cell Lung Carcinoma
+PANC-10-05,925348,Pancreas,Pancreatic Carcinoma
+PANC-04-03,1298476,Pancreas,Pancreatic Carcinoma
+PANC-03-27,925346,Pancreas,Pancreatic Carcinoma
+PANC-02-03,1298475,Pancreas,Pancreatic Carcinoma
+PA-1,909255,Ovary,Ovarian Carcinoma
+OV-90,1240197,Ovary,Ovarian Carcinoma
+SNU-5,908445,Stomach,Gastric Carcinoma
+SNU-16,908446,Stomach,Gastric Carcinoma
+NCI-N87,908461,Stomach,Gastric Carcinoma
+NCI-H847,1240193,Lung,Small Cell Lung Carcinoma
+SNU-182,1240216,Liver,Hepatocellular Carcinoma
+SUP-T1,909743,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+SW1088,909745,Central Nervous System,Glioma
+SW1271,1299062,Lung,Small Cell Lung Carcinoma
+SW900,724879,Lung,Squamous Cell Lung Carcinoma
+SW872,909756,Soft Tissue,Other Sarcomas
+SW780,687457,Bladder,Bladder Carcinoma
+SW982,909759,Soft Tissue,Other Sarcomas
+SW1573,724878,Lung,Non-Small Cell Lung Carcinoma
+SW1990,910907,Pancreas,Pancreatic Carcinoma
+SW626,909753,Large Intestine,Colorectal Carcinoma
+TOV-112D,1299070,Ovary,Ovarian Carcinoma
+T98G,687586,Central Nervous System,Glioblastoma
+SW756,724839,Cervix,Cervical Carcinoma
+SW684,909754,Soft Tissue,Other Sarcomas
+SUP-B15,1247871,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+VA-ES-BJ,688121,Soft Tissue,Other Sarcomas
+SNU-387,909736,Liver,Hepatocellular Carcinoma
+SNU-398,1240217,Liver,Hepatocellular Carcinoma
+UM-UC-3,724838,Bladder,Bladder Carcinoma
+UMC-11,909779,Lung,Other Solid Cancers
+UACC-893,909778,Breast,Breast Carcinoma
+UACC-812,910910,Breast,Breast Carcinoma
+SU8686,1240218,Pancreas,Pancreatic Carcinoma
+U-87-MG,687590,Central Nervous System,Glioblastoma
+TCCSUP,687459,Bladder,Bladder Carcinoma
+U-2-OS,909776,Bone,Osteosarcoma
+U-118-MG,687588,Central Nervous System,Glioma
+SNU-449,909738,Liver,Hepatocellular Carcinoma
+SNU-C1,910905,Large Intestine,Colorectal Carcinoma
+ST486,910906,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+SNU-423,909737,Liver,Hepatocellular Carcinoma
+IMR-5,907170,Peripheral Nervous System,Neuroblastoma
+LNZTA3WT4,1240170,Central Nervous System,Glioma
+CHL-1,910853,Skin,Melanoma
+NCCIT,908441,Testis,Other Solid Cancers
+M14,905975,Skin,Melanoma
+PL4,1298533,Pancreas,Pancreatic Carcinoma
+PCI-30,1298529,Head and Neck,Head and Neck Carcinoma
+HSC-39,1322224,Stomach,Gastric Carcinoma
+EMC-BAC-2,1503370,Lung,Non-Small Cell Lung Carcinoma
+RH-41,1240210,Soft Tissue,Rhabdomyosarcoma
+SBC-3,753610,Lung,Small Cell Lung Carcinoma
+SJRH30,909716,Soft Tissue,Rhabdomyosarcoma
+CCRF-CEM,905952,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+SK-OV-3,905959,Ovary,Ovarian Carcinoma
+SK-MEL-2,905955,Skin,Melanoma
+DU-145,905935,Prostate,Prostate Carcinoma
+COLO-684,910691,Endometrium,Endometrial Carcinoma
+MOLT-4,905958,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+KM12,905989,Large Intestine,Colorectal Carcinoma
+IGROV-1,905968,Ovary,Ovarian Carcinoma
+A2780,906804,Ovary,Ovarian Carcinoma
+OCUB-M,909256,Breast,Breast Carcinoma
+SNU-407,1660034,Large Intestine,Colorectal Carcinoma
+SNU-175,1659928,Large Intestine,Colorectal Carcinoma
+OC-314,909257,Ovary,Ovarian Carcinoma
+TGBC11TKB,909770,Stomach,Gastric Carcinoma
+VMRC-LCD,713869,Lung,Non-Small Cell Lung Carcinoma
+L-428,907322,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+CW-2,910554,Large Intestine,Colorectal Carcinoma
+MFE-319,1240174,Endometrium,Endometrial Carcinoma
+MFE-296,908130,Endometrium,Endometrial Carcinoma
+P31-FUJ,909253,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+P30-OHK,909252,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+SNG-M,909735,Endometrium,Endometrial Carcinoma
+MHH-PREB-1,908136,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+SUP-HD1,1331039,Haematopoietic and Lymphoid,Hodgkin's Lymphoma
+MOLT-16,908147,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+WSU-NHL,909785,Haematopoietic and Lymphoid,B-Cell Non-Hodgkin's Lymphoma
+NALM-6,908158,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+MOLT-13,908146,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+MN-60,908143,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+REH,909696,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+CCK-81,1240123,Large Intestine,Colorectal Carcinoma
+SNU-C5,1674021,Large Intestine,Colorectal Carcinoma
+22RV1,924100,Prostate,Prostate Carcinoma
+KP-2,1298218,Pancreas,Pancreatic Carcinoma
+ESO26,1503366,Esophagus,Esophageal Carcinoma
+OCUM-1,1298358,Stomach,Gastric Carcinoma
+GP5d,907291,Large Intestine,Colorectal Carcinoma
+HEC-1,907051,Endometrium,Endometrial Carcinoma
+IM-95,1240155,Stomach,Gastric Carcinoma
+MDA-MB-436,1240172,Breast,Breast Carcinoma
+NAMALWA,908159,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+NCI-H1048,687995,Lung,Small Cell Lung Carcinoma
+LS-411N,907794,Large Intestine,Colorectal Carcinoma
+NCI-H28,908470,Lung,Mesothelioma
+LS-180,998189,Large Intestine,Colorectal Carcinoma
+LNCaP-Clone-FGC,907788,Prostate,Prostate Carcinoma
+NCI-H1781,1298350,Lung,Non-Small Cell Lung Carcinoma
+NCI-H1963,688010,Lung,Small Cell Lung Carcinoma
+NCI-H747,908457,Large Intestine,Colorectal Carcinoma
+769-P,910922,Kidney,Kidney Carcinoma
+SNU-C2B,909740,Large Intestine,Colorectal Carcinoma
+HCT-116,905936,Large Intestine,Colorectal Carcinoma
+HCT-15,905937,Large Intestine,Colorectal Carcinoma
+NUGC-3,908455,Stomach,Gastric Carcinoma
+JiyoyeP-2003,907268,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+Daudi,906831,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+A704,910920,Kidney,Kidney Carcinoma
+EB2,906846,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+HCC1500,1303900,Breast,Breast Carcinoma
+SW48,909751,Large Intestine,Colorectal Carcinoma
+LoVo,907790,Large Intestine,Colorectal Carcinoma
+CAL-72,906827,Bone,Osteosarcoma
+CAL-51,910927,Breast,Breast Carcinoma
+DK-MG,906839,Central Nervous System,Glioblastoma
+C-33-A,687505,Cervix,Cervical Carcinoma
+AN3-CA,910781,Endometrium,Endometrial Carcinoma
+DND-41,1297446,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+DG-75,906838,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+CTV-1,753548,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+CML-T1,910951,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+ZR-75-30,909907,Breast,Breast Carcinoma
+23132-87,910924,Stomach,Gastric Carcinoma
+KCL-22,1330931,Haematopoietic and Lymphoid,Chronic Myelogenous Leukemia
+JIMT-1,1298157,Breast,Breast Carcinoma
+EN,1240127,Endometrium,Endometrial Carcinoma
+HCC-15,1240143,Lung,Squamous Cell Lung Carcinoma
+SJSA-1,909717,Bone,Osteosarcoma
+NCI-H526,688025,Lung,Small Cell Lung Carcinoma
+NCI-H524,908483,Lung,Small Cell Lung Carcinoma
+PANC-08-13,925347,Pancreas,Pancreatic Carcinoma
+RS4-11,909703,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+RL95-2,930082,Endometrium,Endometrial Carcinoma
+RKO,909698,Large Intestine,Colorectal Carcinoma
+SK-UT-1,909732,Uterus,Other Sarcomas
+SNU-1,908444,Stomach,Gastric Carcinoma
+ARH-77,906765,Haematopoietic and Lymphoid,Non-Cancerous
+MC-CAR,683665,Haematopoietic and Lymphoid,Non-Cancerous
+SW1783,909750,Central Nervous System,Glioma
+LU-99A,907796,Lung,Non-Small Cell Lung Carcinoma
+TOV-21G,1240222,Ovary,Ovarian Carcinoma
+TUR,909773,Haematopoietic and Lymphoid,Acute Myeloid Leukemia
+C2BBe1,910700,Large Intestine,Colorectal Carcinoma
+C3A,910850,Liver,Hepatocellular Carcinoma
+BE-13,906763,Haematopoietic and Lymphoid,T-Lymphoblastic Leukemia
+Ramos-2G6-4C10,910401,Haematopoietic and Lymphoid,Burkitt's Lymphoma
+CGTH-W-1,910568,Thyroid,Thyroid Gland Carcinoma
+H9,907043,Haematopoietic and Lymphoid,T-Cell Non-Hodgkin's Lymphoma
+BE2-M17,753616,Peripheral Nervous System,Neuroblastoma
+MM1S,1659818,Haematopoietic and Lymphoid,Plasma Cell Myeloma
+GR-ST,906877,Haematopoietic and Lymphoid,B-Lymphoblastic Leukemia
+RPMI-6666,909701,Haematopoietic and Lymphoid,Non-Cancerous
+IM-9,753563,Haematopoietic and Lymphoid,Non-Cancerous
