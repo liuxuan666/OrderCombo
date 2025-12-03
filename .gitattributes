@@ -1,0 +1,2 @@
+ChemBERTa-zinc-base-v1/*.bin filter=lfs diff=lfs merge=lfs -text
+ChemBERTa-zinc-base-v1/*.msgpack filter=lfs diff=lfs merge=lfs -text
