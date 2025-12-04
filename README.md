@@ -12,6 +12,9 @@ Source code and data fo "Order-aware deep learning for drug combination benefit 
 
 Chemberta-zinc base-v1 is a pre-trained deep learning model focused on structural analysis of chemical molecules, which can be downloaded from https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/tree/main.
 
+The conda environment for configuring the model can be found in requirement.yml
+
 # Usage
+You can run the following command in python development environment:
 
 * python main.py \<parameters\>  #---classification task with 5-fold CV
