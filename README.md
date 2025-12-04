@@ -1,5 +1,5 @@
 # OrderCombo
-Source code and data fo "Order-aware deep learning for drug combination benefit prediction in cancer cell lines"
+Source code and data for "Order-aware deep learning for drug combination benefit prediction in cancer cell lines"
 
 ![Framework of OrderCombo](https://github.com/liuxuan666/OrderCombo/blob/main/framework.png)  
 
