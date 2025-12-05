@@ -5,10 +5,10 @@ Source code and data for "Order-aware deep learning for drug combination benefit
 
 # Requirements
 * Python >= 3.10
-* PyTorch >= 1.7
-* Transformer >= 3.4
+* PyTorch >= 2.7
+* Transformers >= 4.4
 * DeepChem >= 2.4
-* RDkit >= 2020.09
+* RDkit >= 2024.09
 
 Chemberta-zinc base-v1 is a pre-trained deep learning model focused on structural analysis of chemical molecules, which can be downloaded from https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/tree/main.
 
