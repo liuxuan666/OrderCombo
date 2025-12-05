@@ -7,6 +7,7 @@ from utils import get_Morgan, get_MACCS
 from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')  # Disable RDKit warnings
 
+
 @torch.no_grad()
 def drug_feature(unique_smiles, model_dir=None):
     """
