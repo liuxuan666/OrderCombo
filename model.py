@@ -92,7 +92,7 @@ class OrdinalContrastiveLoss(nn.Module):
         self.ord_temperature = ord_temperature
         self.w_ord = w_ord
 
-        # 预compute distance matrix [C, C]
+        # compute distance matrix [C, C]
         idx = torch.arange(num_classes).unsqueeze(0)
         self.register_buffer('distance_matrix', (idx.T - idx).float().pow(2))
 
