@@ -1,5 +1,5 @@
 # OrderCombo
-Source code and data for "Order-aware deep learning for drug combination benefit prediction in cancer cell lines"
+Source code and data for "Order-aware deep learning for drug combination benefit prediction in cancer cell lines".
 
 ![Framework of OrderCombo](https://github.com/liuxuan666/OrderCombo/blob/main/framework.png)  
 
@@ -15,6 +15,8 @@ Chemberta-zinc base-v1 is a pre-trained deep learning model focused on structura
 The detailed conda environment for configuring the model can be found in "environment.yaml".
 
 # Usage
-You can run the following command in python development environment:
+You can run the following command in Python development environment:
 
 * python main.py \<parameters\>  #---classification task with 5-fold CV
+
+The detailed parameter configuration can be found in the config.yaml file.
