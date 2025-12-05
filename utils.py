@@ -67,8 +67,10 @@ def get_Morgan(smiles, radius=2, nBits=512):
 
 def get_MACCS(smiles):
     m = Chem.MolFromSmiles(smiles)
-    arr = np.zeros((1,), np.float32)
-    fp = MACCSkeys.GenMACCSKeys(m)
+    if m is None:
+        return np.zeros((167,), dtype=np.int8)
+    fp = MACCSkeys.GenMACCSKeys(m)  # 167 bits
+    arr = np.zeros((167,), dtype=np.int8)
     DataStructs.ConvertToNumpyArray(fp, arr)
     return arr
 

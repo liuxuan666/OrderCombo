@@ -96,7 +96,7 @@ class OrdinalContrastiveLoss(nn.Module):
         idx = torch.arange(num_classes).unsqueeze(0)
         self.register_buffer('distance_matrix', (idx.T - idx).float().pow(2))
 
-        self.cross_entropy = nn.CrossEntropyLoss()
+        self.cross_entropy = nn.CrossEntropyLoss(label_smoothing=0.05)
 
         self.con_temperature = con_temperature
         self.w_con = w_con
@@ -149,6 +149,7 @@ class OrdinalContrastiveLoss(nn.Module):
         L_con = L_con_each.mean()
 
         # 4) Combine
+        #loss = L_ce + self.w_ord * L_ord + self.w_con * L_con
         loss = (1 - self.w_ord - self.w_con) * L_ce + self.w_ord * L_ord + self.w_con * L_con
         return loss
 

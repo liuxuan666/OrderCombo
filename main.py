@@ -7,10 +7,12 @@ from sklearn.model_selection import StratifiedKFold, StratifiedGroupKFold, train
 from process_data import drug_feature, SynergyDataset
 from utils import make_report, swap_drugs, metrics, set_seed_all
 from model import SynergyModel, OrdinalContrastiveLoss
+from sklearn.preprocessing import StandardScaler
+from torch.optim.lr_scheduler import CosineAnnealingLR
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-cv_mode = 3
-
+cv_mode = 2
+ep_number = 50
 set_seed_all(42)
 drug_file = './GDSC_Combo_data/drug_info.csv'
 cline_file = './GDSC_Combo_data/omics_expression.csv'
@@ -34,10 +36,12 @@ for idx, row in synergy_df.iterrows():
 unique_smiles = pd.concat([synergy_df["LIBRARY_ID"], synergy_df["ANCHOR_ID"]]).unique()
 print(f"[Info] total {len(unique_smiles)} drug SMILES，initialize embedding ...")
 smiles_embedding_dict = drug_feature(unique_smiles, model_dir = './ChemBERTa-zinc-base-v1')
+
 # indepent testing
 # synergy_df, independ_df = train_test_split(synergy_df, test_size=0.10, 
 #                                          stratify=synergy_df['Label'].values, random_state=42)
 # 5-fold cross-validation in three scenarios
+
 labels = synergy_df['Label'].values
 if cv_mode == 1:
     splitter = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
@@ -61,6 +65,9 @@ for fold, (tr_idx, te_idx) in enumerate(splitter.split(synergy_df, labels, group
     test_ds  = SynergyDataset(test_df,  gene_df, smiles_embedding_dict)
     train_loader = DataLoader(train_ds, batch_size=256, shuffle=True)
     test_loader  = DataLoader(test_ds,  batch_size=256, shuffle=False)
+    
+    vc = train_df['Label'].value_counts().sort_index()
+    cw = torch.tensor((vc.sum() / (vc + 1e-6)).values, dtype=torch.float32).to(device)
     # Model building
     model = SynergyModel(
         emb_dim=768,
@@ -71,12 +78,14 @@ for fold, (tr_idx, te_idx) in enumerate(splitter.split(synergy_df, labels, group
     ).to(device)
 
     criterion = OrdinalContrastiveLoss(num_classes=4, ord_temperature=0.8, w_ord=0.3,
-                                       con_temperature=0.8, w_con=0.2, class_weight=None)
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.0001, weight_decay=1e-5)
+                                       con_temperature=0.8, w_con=0.1, class_weight=cw)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-5)
+    scheduler = CosineAnnealingLR(optimizer, T_max=ep_number)
+
     fold = fold + 1
     # Epoch training
-    best_acc = 0.0
-    for epoch in range(0, 30):
+    best_mae = float('inf')
+    for epoch in range(0, ep_number):
         # training process
         model.train()
         total_loss = 0.0
@@ -96,7 +105,7 @@ for fold, (tr_idx, te_idx) in enumerate(splitter.split(synergy_df, labels, group
             optimizer.step()
             total_loss += loss.item() * labels.size(0)
         avg_loss = total_loss / len(train_loader.dataset)
-
+        
         # testing process
         model.eval()
         all_preds, all_trues = [], []
@@ -121,9 +130,11 @@ for fold, (tr_idx, te_idx) in enumerate(splitter.split(synergy_df, labels, group
         #                    'acc: {:.4f},'.format(acc), 'precision: {:.4f},'.format(precision),
         #                    'recall: {:.4f},'.format(recall), 'f1: {:.4f}'.format(f1))
         # saving the model
-        if acc > best_acc:
-            best_acc = acc
+        if mae < best_mae:
+            best_mae = mae
             torch.save(model.state_dict(), f"Results/best_model_fold{fold}.pt")
+        scheduler.step()
+        
     # load the best model
     model.load_state_dict(torch.load(f"Results/best_model_fold{fold}.pt"))
     mae, qwk, tau, acc, report = make_report(model, test_loader, device)
