@@ -1,0 +1,46 @@
+model:
+  emb_dim: 768
+  fp_dim: 512
+  gene_dim: auto        # automatically set according to gene expression input shape
+  hidden_dim: 256
+  num_classes: 4
+
+  transformer:
+    layers: 2
+    heads: 2
+    feedforward_dim: 1024
+    dropout: 0.3
+
+  classifier:
+    dropout: 0.4
+
+training:
+  epochs: 50
+  batch_size: 256
+  device: auto     # cuda if available, otherwise cpu
+
+  optimizer:
+    type: AdamW
+    lr: 0.001
+    weight_decay: 1e-5
+
+  scheduler:
+    type: CosineAnnealingLR
+    T_max: 50
+
+loss:
+  type: OrdinalContrastiveLoss
+  w_ord: 0.3
+  w_con: 0.1
+  ord_temperature: 0.8
+  con_temperature: 0.8
+  label_smoothing: 0.05
+
+cross_validation:
+  mode: 2          # 1: random CV, 2: grouped by cell line, 3: grouped by drug pairs
+
+data:
+  smiles_model: ChemBERTa-zinc-base-v1
+  drug_file: ./GDSC_Combo_data/drug_info.csv
+  gene_file: ./GDSC_Combo_data/omics_expression.csv
+  synergy_file: ./GDSC_Combo_data/synergy_data.csv
