@@ -147,10 +147,3 @@ res_df = pd.DataFrame(fold_results)
 res_df.to_csv('Results/model_performance.csv')
 print("\n===== Cross-Validation Summary =====")
 print(res_df)
-
-#%%
-# clean GPU memory
-import torch
-torch.cuda.empty_cache()
-import gc
-gc.collect()
