@@ -12,7 +12,7 @@ Source code and data for "Order-aware deep learning for drug combination benefit
 
 Chemberta-zinc base-v1 is a pre-trained deep learning model focused on structural analysis of chemical molecules, which can be downloaded from https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/tree/main.
 
-**It is recommended to use git@github.com:liuxuan666/OrderCombo.git to download the code, as there are two large files under the ChemBERTa-zinc-base-v1 directory: flax_model.msgpack (168 MB) and pytorch_model.bin (171 MB). Please make sure their file sizes are correct.**
+**It is recommended to use “git clone git@github.com:liuxuan666/OrderCombo.git“ to download the code, as there are two large files under the ChemBERTa-zinc-base-v1 directory: flax_model.msgpack (168MB) and pytorch_model.bin (171MB). Please make sure their file sizes are correct.**
 
 The detailed conda environment for configuring the model can be found in "environment.yaml".
 
